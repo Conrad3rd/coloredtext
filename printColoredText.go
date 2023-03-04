@@ -19,8 +19,8 @@ func Paint(text, color string) {
 	fmt.Println("\033" + color + text + "\033" + "[0m")
 }
 
-func Change(text, color string) {
-	findColor(text, color)
+func Change(text, color string) string{
+	return findColor(text, color)
 }
 
 
