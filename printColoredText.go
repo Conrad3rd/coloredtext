@@ -1,4 +1,4 @@
-package goColor
+package printcoloredtext
 
 import "fmt"
 
