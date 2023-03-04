@@ -4,7 +4,7 @@ import "fmt"
 
 // possible colors are:
 // red, green, yellow, blue, purple, cyan, gray, white
-func PrintColoredText(text, color string) {
+func Paint(text, color string) {
 	switch color {
 	case "red" : color = "[031m"
 	case "green" : color = "[032m"
