@@ -2,7 +2,7 @@ package printcoloredtext
 
 import "fmt"
 
-// possible colors are
+// possible colors are:
 // red, green, yellow, blue, purple, cyan, gray, white
 func Paint(text, color string) {
 	switch color {
