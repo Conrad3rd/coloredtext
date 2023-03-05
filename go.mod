@@ -1,3 +1,3 @@
-module github.com/conrad3rd/coloredtext
+module github.com/conrad3rd/textcolor
 
 go 1.20
